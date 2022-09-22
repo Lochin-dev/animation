@@ -1,0 +1,113 @@
+body{
+   background-color: rgb(60, 56, 56);
+}
+
+.img{
+       position: relative;
+       top: -740px;
+       left: 10px;
+       width: 381px;
+       height: 242px;
+       animation-name: bulut;
+      animation-duration: 7s;
+      
+}
+
+@keyframes bulut {
+   0%{
+      position: relative;
+      top: -740px;
+      left: 10px;
+      width: 381px;
+      height: 242px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+.box{
+   width: 100%;
+   height: 640px;
+   background-image: url(./images/osmonn.jpg);
+   background-size: 1350px;
+}
+
+.box__img{
+   width: 131px;
+   height: 70px;
+   position: relative;
+   animation-duration: 10s;
+   animation-name: harakat-1;
+}
+
+
+
+@keyframes harakat-1 {
+0%{
+   width: 131px;
+   height: 70px; 
+   position: relative;
+   top: 0;
+   left: 0;
+}
+100%{
+   width: 501px;
+   height: 230px; 
+   position: relative;
+   top: 60%;
+   left: 800px;
+}
+}
+
+
+.wrapper__img{
+   width: 200px;
+   height: 100px;
+   position: relative;
+   top: -630px;
+   left: 1110px;
+   animation-name: harakat-2;
+   animation-duration: 10s;
+   animation-play-state: running;
+}
+
+@keyframes harakat-2 {
+   0%{
+      width: 200px;
+      height: 100px;
+      position: relative;
+      top: -630px;
+      left: 1110px;
+   }
+   25%{
+   }
+   50%{
+      width: 400px;
+      height: 300px;
+      position: relative;
+      top: -330px;
+      left: 500px;
+
+   }
+   
+   75%{
+   }
+   100%{
+      width: 800px;
+      height: 630px; 
+      position: relative;
+      top: -400px;
+      left: 20px;
+   }
+
+
+
+}
